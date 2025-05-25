@@ -1,0 +1,72 @@
+
+.red{
+    color: red;
+}
+.black{
+    color: #000;
+}
+.error{
+    color: red;
+}
+.error p{
+    margin: 0 !important;
+    font-size: 12px !important;
+}
+
+.form-control:focus ,  body button.btn:focus{
+    box-shadow: unset !important;
+}
+#toast-container>div{
+    opacity: 1 !important;
+}
+#tableData, th{
+    text-align: center !important;
+}
+#tableData button{
+    margin-right: 5px;
+}
+
+.memberImage{
+    border-radius: 50%;
+}
+
+/*loader css*/
+.nc_preloader{
+    position:fixed;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    z-index:1212121;
+    width:100%;
+    height:100%;
+    text-align:center;
+    background-image: url("../images/bg/slide_2.jpg");
+}
+.loader_overlay{
+    position:relative;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: #080808;
+}
+.loader_image {
+    position: absolute !important;
+    left: 45%;
+    top: 45%;
+    margin: -15px 0 0 -12px;
+}
+.loader_image img {
+    width: 100px;
+    height: 100px;
+}
+
+
+/*User Form*/
+@media (min-width: 992px) {
+    .main-form label{
+        text-align: right;
+    }
+
+}
