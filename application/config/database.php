@@ -11,10 +11,6 @@ $db['default'] = array(
 	'username' => 'root',
 	'password' => '',
 
-	// 'username' => 'kroybang_kroybangla',
-	// 'password' => 'kroybangla@!@#',
-	// 'database' => 'kroybang_ci',
-
 	'database' => 'eyetouch',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
